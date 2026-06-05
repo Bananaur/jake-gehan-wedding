@@ -59,7 +59,7 @@ if (musicPlaying) {
   }, [weddingDate])
 
   const heroImage =
-  "canva2.png"
+  "canva2.png"  
 
   const greenPalette = ["#CFE1B9", "#B5C99A", "#97A97C", "#87986A", "#718355"]
 
@@ -379,6 +379,13 @@ Villa Cruz Nature&apos;s Resort
             As we make our vows, we look ahead to a 
             lifetime of love and laughter—our souls anchored in faith, and our hearts forever devoted.
           </p>
+          <p className="mt-8 italic text-[#9A5B3F]">
+  #
+  <span className="font-bold">Jake</span>
+  FoundHis
+  <span className="font-bold">Gehan</span>
+  uineLove
+</p>
         </div>
 
         <div className="flex justify-center md:justify-end">
