@@ -231,7 +231,7 @@ preload="auto"
     <div className="absolute inset-0">
     <div className="absolute inset-0 md:hidden bg-[#5A3A1E]">
 <img
-  src="/hero-mobile.png"
+  src="/hero-mobile.jpg"
   alt="Jake and Gehan"
   className="w-full h-full object-fill"
 />
@@ -239,7 +239,7 @@ preload="auto"
 
   <div
     className="absolute inset-0 hidden bg-cover bg-center bg-no-repeat md:block"
-    style={{ backgroundImage: "url('/hero-desktop.png')" }}
+    style={{ backgroundImage: "url('/canva2.png')" }}
   />
 </div>
             <div className="absolute inset-0 bg-gradient-to-b from-[#3D2B1F]/70 via-[#8F5A3A]/40 to-[#FFF7ED]" />
