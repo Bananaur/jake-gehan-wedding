@@ -139,7 +139,7 @@ preload="auto"
     <button onClick={() => setPage("entourage")}>Entourage</button>
     <button onClick={() => setPage("request")}>Request</button>
     <button onClick={() => setPage("confirmation")}>Attendance</button>
-    <button onClick={() => setPage("thankyou")}>Thank You</button>
+    <button onClick={() => setPage("thankyou")}>Thank You Note</button>
   </div>
 
   <button
@@ -601,7 +601,7 @@ Villa Cruz Nature&apos;s Resort
   >
     <div className="text-center mb-12 md:mb-14">
       <p className="uppercase tracking-[0.3em] text-[#9A5B3F] text-xs md:text-sm mb-4">
-        Thank You
+        MARAMING SALAMAT PO
       </p>
 
       <h2 className="text-4xl md:text-7xl text-[#4A3527] tracking-wide leading-tight">
@@ -611,13 +611,13 @@ Villa Cruz Nature&apos;s Resort
 
     <div className="max-w-3xl mx-auto bg-white/90 rounded-[2rem] p-8 md:p-12 shadow-xl border border-[#F1D3A2] text-center">
       <p className="text-lg md:text-2xl leading-relaxed text-[#5C4434]">
-        Thank you for being part of our story.
+        Thank you so much for making the time to celebrate with us!
         <br />
         <br />
         Your love, prayers, support, and presence mean more to us than words can express.
         <br />
         <br />
-        As we begin this new chapter together, we are grateful to share this joyful day with the people who have shaped our lives and journey.
+        As we begin our life together, we are grateful to share this joyful day surrounded by families and friends we value and respect so deeply.
         <br />
         <br />
         May God bless each of you abundantly.
