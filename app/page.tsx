@@ -91,7 +91,7 @@ export default function WeddingWebsiteV5() {
             </p>
 
             <h1 className="text-5xl sm:text-6xl md:text-9xl text-white drop-shadow-xl mb-8 md:mb-10 tracking-wide leading-tight">
-              Jake & Gehan
+              Jaki & Gehan
             </h1>
 
             <div className="max-w-3xl mx-auto mb-8 md:mb-10 bg-[#4A3527]/35 backdrop-blur-md border border-[#F7DFA7]/35 rounded-[2rem] px-6 py-6 shadow-2xl">
