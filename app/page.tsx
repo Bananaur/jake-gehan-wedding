@@ -266,7 +266,7 @@ style={{
 {/* MOBILE */}
 <div className="md:hidden w-full">
 <p className="text-[7rem] leading-[0.75] tracking-[0.03em] text-left mb-4">
-  Jaki
+  Jake
 </p>
 
 <p className="text-[5rem] leading-none text-center my-4">
@@ -367,7 +367,7 @@ Villa Cruz Nature&apos;s Resort
       <div className="grid md:grid-cols-[1.15fr_0.85fr] gap-10 md:gap-14 items-center">
         <div>
           <p className="text-[#5C4434] text-lg md:text-2xl leading-relaxed text-center md:text-left">
-            What began as a friendship grew into a love story shaped by
+            What began as a friendship grew into a love story woven together by
             faith, patience, and God&apos;s perfect timing.
             <br />
             <br />
@@ -375,11 +375,10 @@ Villa Cruz Nature&apos;s Resort
             choose each other every step of the way.
             <br />
             <br />
-            We give thanks to God for His faithfulness and the countless ways He has shaped our lives.
-            As we make our vows, we look ahead to a 
-            lifetime of love and laughter—our souls anchored in faith, and our hearts forever devoted.
+            We thank God for His faithfulness and the countless ways He has shaped our lives. As we turn the page to a new chapter, we look ahead to a 
+            lifetime of love and laughter—our hearts forever devoted.
           </p>
-          <p className="mt-8 italic text-[#9A5B3F]">
+          <p className="mt-8 italic text-[#9A5B3F] text-center">
   #
   <span className="font-bold">Jake</span>
   FoundHis
