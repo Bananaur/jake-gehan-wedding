@@ -230,10 +230,10 @@ preload="auto"
           <section className="relative min-h-screen overflow-hidden flex items-center justify-center px-5 pt-24 pb-12">
     <div className="absolute inset-0">
     <div className="absolute inset-0 md:hidden bg-[#5A3A1E]">
-<img
+    <img
   src="/hero-mobile.jpg"
   alt="Jake and Gehan"
-  className="w-full h-full object-fill"
+  className="w-full h-full object-cover object-top"
 />
 </div>
 
