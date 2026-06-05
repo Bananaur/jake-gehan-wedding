@@ -138,7 +138,7 @@ preload="auto"
     <button onClick={() => setPage("attire")}>Attire</button>
     <button onClick={() => setPage("entourage")}>Entourage</button>
     <button onClick={() => setPage("request")}>Request</button>
-    <button onClick={() => setPage("confirmation")}>Attendance</button>
+    <button onClick={() => setPage("confirmation")}>RSVP</button>
     <button onClick={() => setPage("thankyou")}>Thank You Note</button>
   </div>
 
@@ -1269,7 +1269,7 @@ function AttendanceForm() {
         <div>
           <label className="label">
             If you are RSVPing for a family, please list the names of everyone
-            who will be attending.
+            who will be attending:
           </label>
           <textarea
             className="input"
