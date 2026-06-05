@@ -103,7 +103,7 @@ if (musicPlaying) {
       title: "Thank You Note",
       text: "A message from our hearts to everyone who celebrates with us.",
       image:
-        "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=1200&auto=format&fit=crop",
+        "hearthand.png",
       page: "thankyou" as Page,
     },
   ]
