@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/home/Bananaur/jake-gehan-wedding/app/page\":[\"static/media/c27321a0deeb793e-s.p.woff2\"],\"/home/Bananaur/jake-gehan-wedding/app/layout\":[\"static/media/6c596dfcddeca1e9-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
