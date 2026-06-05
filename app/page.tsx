@@ -50,7 +50,7 @@ export default function WeddingWebsiteV5() {
             onClick={() => setPage("home")}
             className="text-sm md:text-xl tracking-[0.22em] uppercase"
           >
-            The Wedding
+            The Nuptials
           </button>
 
           <div className="hidden md:flex gap-6 text-xs uppercase tracking-[0.2em]">
