@@ -1121,7 +1121,7 @@ function GentleRequest() {
     </li>
 
     <li>
-      <strong>Guest Count:</strong> To keep our celebration manageable within our resources, we are only able to accommodate guests who are registered through our RSVP page (no plus-ones, please). Thank you for understanding!
+      <strong>Guest Count:</strong> To keep our celebration intimate, we can only accommodate guests who have formally received and confirmed their invitation through RSVP. We kindly ask for no plus-ones. Thank you for understanding!
     </li>
 
     <li>
