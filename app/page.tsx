@@ -1113,7 +1113,7 @@ function GentleRequest() {
   <ul className="space-y-5 text-base md:text-lg text-[#5C4434] list-disc pl-6">
 
     <li>
-      <strong>RSVP:</strong> If you haven’t yet, please confirm your RSVP by June 15, 2026.
+      <strong>RSVP:</strong> If you haven’t yet, please confirm your attendance by June 15, 2026.
     </li>
 
     <li>
@@ -1135,7 +1135,7 @@ function GentleRequest() {
   </ul>
 
   <p className="mt-8 text-center italic text-lg md:text-xl text-[#6F4E37]">
-    Most importantly, we want you to relax, celebrate, and enjoy the evening with us.
+  Most importantly, we want you to relax, celebrate, and be fully present as we celebrate together.
     <br />
     We can’t wait to see you soon.
   </p>
