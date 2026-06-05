@@ -110,15 +110,20 @@ if (musicPlaying) {
 
   return (
     <main
-      className="min-h-screen bg-[#FFF7ED] text-[#4A3527]"
+      className="m  in-h-screen bg-[#FFF7ED] text-[#4A3527]"
       style={{ fontFamily: "'The Seasons', Georgia, serif" }}
     >
-      <audio
-ref={audioRef}
-src="/til-the-end-of-time.mp3"
-loop
-preload="auto"
-/>
+     <audio
+  ref={audioRef}
+  src="/til-the-end-of-time.mp3"
+  loop
+  preload="auto"
+/><button
+  onClick={toggleMusic}
+  className="fixed bottom-5 right-5 z-50 bg-[#4A3527] text-white px-4 py-2 rounded-full shadow-lg"
+>
+  {musicPlaying ? "Pause Music" : "Play Music"}
+</button>
 
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FFF7ED]/90 backdrop-blur-md border-b border-[#D9A441]/30">
 <div className="max-w-7xl mx-auto px-5 md:px-6 py-4 flex justify-between items-center">
