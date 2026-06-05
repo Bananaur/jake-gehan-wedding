@@ -792,12 +792,12 @@ function AttireGuide({ greenPalette }: { greenPalette: string[] }) {
       <p className="text-lg md:text-xl leading-relaxed mb-6">
       To complement our special day, we would love to see you in semi-formal attire in our wedding color palette below.
       </p>
-      <div className="mb-10">
-      <p className="text-xl md:text-2xl font-bold text-[#4A3527] mb-4">
+      <div className="mt-12 mb-10">
+      <p className="text-xl md:text-2xl font-bold text-[#4A3527] mb-8">
   A Gentle Reminder
 </p>
 
-  <ul className="text-base md:text-lg text-center max-w-2xl mx-auto space-y-3 list-none pl-6">
+  <ul className="text-base md:text-lg text-center max-w-2xl mx-auto space-y-2 list-none pl-2">
     <li>
       Please avoid denim/maong, t-shirt, and slippers.
     </li>
@@ -1129,7 +1129,7 @@ function GentleRequest() {
     </li>
 
     <li>
-      <strong>Gifts:</strong> Your presence is our favorite gift! If you wish to give something extra, a cash contribution toward our future together would be deeply appreciated.
+      <strong>Gifts:</strong> Your presence is our favorite gift! But if you wish to bless us with something extra, a gift toward our new beginning fund is deeply appreciated instead of traditional gifts.
     </li>
 
   </ul>
