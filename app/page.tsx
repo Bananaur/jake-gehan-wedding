@@ -303,7 +303,7 @@ style={{
               <div className="my-8 w-32 h-[1px] bg-[#F7DFA7] mx-auto" />
 
 <p className="text-[#FFF3D6] mt-5 text-xl md:text-2xl leading-relaxed">
-See you at 2:00 PM
+2:00 PM @
 </p>
 
 <p className="text-[#FFF3D6] mt-1 text-xl md:text-2xl leading-relaxed">
@@ -584,7 +584,7 @@ Villa Cruz Nature&apos;s Resort
       </p>
 
       <h2 className="text-4xl md:text-7xl text-[#4A3527] tracking-wide leading-tight">
-        We Would Love To Celebrate With You
+        Come Celebrate With us
       </h2>
     </div>
 
@@ -1129,13 +1129,14 @@ function GentleRequest() {
     </li>
 
     <li>
-      <strong>Gifts:</strong> Your presence is our favorite gift! But if you wish to bless us with something extra, a gift toward our new beginning fund is deeply appreciated instead of traditional gifts.
+      <strong>Gifts:</strong> Your presence is our favorite gift, but if you wish to bless us with something extra, we would be grateful for a gift toward our New Beginning Fund rather than traditional gifts.
+
     </li>
 
   </ul>
 
   <p className="mt-8 text-center italic text-lg md:text-xl text-[#6F4E37]">
-  Most importantly, we want you to relax, celebrate, and be fully present as we celebrate together.
+  Most importantly, we want you to relax, enjoy, and be fully present as we celebrate together.
     <br />
     We can’t wait to see you soon.
   </p>
@@ -1151,8 +1152,8 @@ function AttendanceSection() {
         <p className="uppercase tracking-[0.35em] text-[#9A5B3F] text-sm mb-6">
           Attendance Confirmation
         </p>
-        <h2 className="text-3xl md:text-4xl text-[#4A3527] mb-6">
-          We Would Love To Celebrate With You!
+        <h2 className="text-4xl md:text-6xl text-[#4A3527] mb-6">
+          Come Celebrate With Us!
         </h2>
         <p className="text-lg text-[#5C4434] mb-10">
         To help us plan better, we request that you confirm your attendance before 
