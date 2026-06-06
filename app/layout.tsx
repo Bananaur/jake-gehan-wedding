@@ -1,15 +1,5 @@
-import type { Metadata } from "next";
-import { Great_Vibes } from "next/font/google";
-import "./globals.css";
-
-const greatVibes = Great_Vibes({
-  subsets: ["latin"],
-  weight: "400",
-  variable: "--font-great-vibes",
-});
-
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jakeandgehan.vercel.app"),
+  metadataBase: new URL("https://jake-gehan-wedding.vercel.app"),
 
   title: "You Are Cordially Invited!",
   description:
@@ -19,7 +9,7 @@ export const metadata: Metadata = {
     title: "You Are Cordially Invited!",
     description:
       "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026.",
-    url: "https://jakeandgehan.vercel.app",
+    url: "https://jake-gehan-wedding.vercel.app",
     siteName: "Jake & Gehan Wedding",
     images: [
       {
@@ -35,21 +25,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "You Are Invited!",
+    title: "You Are Cordially Invited!",
     description:
       "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026.",
     images: ["/layout-2.png"],
   },
 };
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en" className={greatVibes.variable}>
-      <body>{children}</body>
-    </html>
-  );
-}
