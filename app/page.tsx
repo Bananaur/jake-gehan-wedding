@@ -317,9 +317,9 @@ if (musicPlaying) {
   we invite you to celebrate with us
 </p>
 
-  <p className="text-white text-sm mb-10">07.14.26</p>
-  <p className="text-lg">THE WEDDING</p>
-  <p className="text-lg mt-5 mb-8">OF</p>
+  <p className="text-white text-sm mb-0">07.14.26</p>
+  <p className="text-xl">THE WEDDING</p>
+  <p className="text-xl mt-5 mb-8">OF</p>
 </div>
       <div
         className={`${greatVibes.className} text-white w-full`}
