@@ -764,6 +764,39 @@ video {
 .mb-0 {
   margin-bottom: 0px;
 }
+.-ml-20 {
+  margin-left: -5rem;
+}
+.-ml-5 {
+  margin-left: -1.25rem;
+}
+.-mr-5 {
+  margin-right: -1.25rem;
+}
+.-mr-10 {
+  margin-right: -2.5rem;
+}
+.-mt-1 {
+  margin-top: -0.25rem;
+}
+.-mt-8 {
+  margin-top: -2rem;
+}
+.-ml-14 {
+  margin-left: -3.5rem;
+}
+.-ml-11 {
+  margin-left: -2.75rem;
+}
+.mr-1 {
+  margin-right: 0.25rem;
+}
+.mr-0 {
+  margin-right: 0px;
+}
+.mr-4 {
+  margin-right: 1rem;
+}
 .block {
   display: block;
 }
@@ -1245,6 +1278,12 @@ video {
 .leading-\[0\.9\] {
   line-height: 0.9;
 }
+.leading-\[0\.5\] {
+  line-height: 0.5;
+}
+.leading-\[0\.05\] {
+  line-height: 0.05;
+}
 .tracking-\[0\.03em\] {
   letter-spacing: 0.03em;
 }
@@ -1277,6 +1316,33 @@ video {
 }
 .tracking-\[0\.30em\] {
   letter-spacing: 0.30em;
+}
+.tracking-\[0\.10em\] {
+  letter-spacing: 0.10em;
+}
+.tracking-\[0\.8em\] {
+  letter-spacing: 0.8em;
+}
+.tracking-\[0\.08em\] {
+  letter-spacing: 0.08em;
+}
+.tracking-\[0\.12em\] {
+  letter-spacing: 0.12em;
+}
+.tracking-\[0\.9em\] {
+  letter-spacing: 0.9em;
+}
+.tracking-\[0\.o9em\] {
+  letter-spacing: 0.o9em;
+}
+.tracking-\[0\.09em\] {
+  letter-spacing: 0.09em;
+}
+.tracking-\[0\.14em\] {
+  letter-spacing: 0.14em;
+}
+.tracking-\[0\.010em\] {
+  letter-spacing: 0.010em;
 }
 .text-\[\#4A3527\] {
   --tw-text-opacity: 1;
