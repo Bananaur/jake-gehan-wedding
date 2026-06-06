@@ -1173,7 +1173,7 @@ Note
       Flower Girls
     </p>
     <p className="text-sm md:text-2xl text-[#4A3527]">
-      LECIA JEHN PINCA
+      LECIA JHEN PINCA
       <br />
       MIREILLE SHAOQING LEW
     </p>
