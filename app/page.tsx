@@ -342,7 +342,7 @@ if (musicPlaying) {
     <div className="hidden md:flex flex-col items-center text-center">
     <div className="text-[#FFF3D6] uppercase tracking-[0.25em] mt-0 mb-16">
   <p className="text-white/90 text-[11px] leading-relaxed tracking-[0.22em] mb-10">
-    WITH THE BLESSINGS OF OUR FAMILIES, WE INVITE YOU TO CELEBRATE WITH US
+    TOGETHER WITH OUR FAMILIES, WE CORDIALLY INVITE YOU TO CELEBRATE WITH US
   </p>
 
   <p className="text-white text-lg mb-3">07.14.26</p>
