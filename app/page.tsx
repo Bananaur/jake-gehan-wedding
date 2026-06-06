@@ -1332,7 +1332,7 @@ function AttendanceForm() {
             <label className="cursor-pointer rounded-2xl border border-[#F1D3A2] bg-white/90 p-5 text-center hover:bg-[#FFF7ED] transition">
               <input
                 type="radio"
-                name="dance"
+                name="attendance"
                 value="Regretfully Decline"
                 required
                 className="sr-only peer"
