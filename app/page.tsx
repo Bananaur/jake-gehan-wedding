@@ -952,7 +952,7 @@ Note
     ]
 
     const groomsmen = [
-      "JOHN MICHAEL CUI GALUPO",
+      "JOHN MICHAEL GALUPO",
       "RALPH LAWRENCE CUI",
       "GIO LAGARTO",
       "APRIL CALEB OBIADO",
@@ -972,7 +972,7 @@ Note
       "BEVERLY CLARK OBIADO",
       "JELLYCA PINCA",
       "XYLEEN KIM ACEDERA",
-      "JAMILLE PINCA",
+      "JUDY ANN PINCA",
       "XI ANNE RAIZZA ACEDERA",
       "MISCHA CASSANDRA ACEDERA",
     ]
@@ -1155,7 +1155,7 @@ Note
       Coin Bearer
     </p>
     <p className="text-sm md:text-2xl text-[#4A3527]">
-      ELIAS PINCA
+      ADRIEL LUCAS CUEVAS
     </p>
   </div>
 
@@ -1173,7 +1173,7 @@ Note
       Flower Girls
     </p>
     <p className="text-sm md:text-2xl text-[#4A3527]">
-      LICIA JANE PINCA
+      LECIA JEHN PINCA
       <br />
       MIREILLE SHAOQING LEW
     </p>
