@@ -309,25 +309,25 @@ if (musicPlaying) {
   <div className="relative z-10 text-center max-w-5xl w-full">
     {/* MOBILE HERO TEXT */}
     <div className="md:hidden flex flex-col items-center text-center">
-      <div className="text-[#FFF3D6] uppercase tracking-[0.25em] mt-2 mb-10">
-        <p className="text-white text-base mb-12">07.14.26</p>
-        <p className="text-2xl">THE WEDDING</p>
-        <p className="text-xl mt-4 mb-5">OF</p>
+      <div className="text-[#FFF3D6] uppercase tracking-[0.25em] mt-4 mb-10">
+        <p className="text-white text-base mb-4">07.14.26</p>
+        <p className="text-3xl">THE WEDDING</p>
+        <p className="text-xl mt-6 mb-5">OF</p>
       </div>
 
       <div
         className={`${greatVibes.className} text-white w-full`}
         style={{ textShadow: "0 4px 20px rgba(0,0,0,0.18)" }}
       >
-        <p className="text-[8rem] leading-[0.9] tracking-[0.05em] text-center -ml-16 mb-2">
+        <p className="text-[8rem] leading-[0.9] tracking-[0.05em] text-center -ml-12 mb-2">
           Jake
         </p>
 
-        <p className="text-[5rem] leading-none text-center my-0">
+        <p className="text-[5rem] leading-none text-center -mr-6 my-2">
           &
         </p>
 
-        <p className="text-[8rem] leading-[0.8] tracking-[0.05em] text-center -mr-6 mt-2">
+        <p className="text-[8rem] leading-[0.8] tracking-[0.05em] text-center -mr-1 mt-2">
           Gehan
         </p>
       </div>
