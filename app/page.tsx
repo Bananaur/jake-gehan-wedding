@@ -1220,7 +1220,7 @@ function GentleRequest() {
     </li>
     
     <li>
-      <strong>Children:</strong>  While we adore your little ones, we respectfully request that attendance be limited to older children and adults.
+      <strong>Children:</strong>  While we adore your little ones, we respectfully request that attendance be limited to older children and adults..
     </li>
 
     <li>
