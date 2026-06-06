@@ -326,15 +326,24 @@ style={{
 >
 {/* MOBILE */}
 <div className="md:hidden w-full">
-  <p className="text-[7rem] leading-[0.8] tracking-[0.03em] text-left -ml-10 mb-1">
+  <p className="text-[7rem] leading-[0.8] tracking-[0.03em] text-left -ml-4 mb-1">
     Jake
   </p>
 
-  <p className="text-[4.5rem] leading-none text-center my-0 translate-x-8">
+  <p className="text-[4.5rem] leading-none text-center my-0">
     &
   </p>
 
-  <p className="text-[7rem] leading-[0.8] tracking-[0.03em] text-right -mr-14 mt-1">
+  <p className="text-[7rem] leading-[0.8] tracking-[0.03em] text-right -mr-4 mt-1">
+    Gehan
+  </p>
+</div>
+
+{/* DESKTOP */}
+<div className="hidden md:block text-center">
+  <p className="text-[10rem] leading-[0.8]">
+    Jake
+    <span className="mx-10 text-[8rem]">&</span>
     Gehan
   </p>
 </div>
@@ -591,7 +600,7 @@ Villa Cruz Nature&apos;s Resort
 </p>
 
 <h2 className="text-4xl md:text-7xl text-[#4A3527] tracking-wide leading-tight">
-  With The People We Love
+  With The People We Hold Dear
 </h2>
 
 <div className="mt-10 md:mt-12 text-[#9A5B3F]">
@@ -682,7 +691,7 @@ Villa Cruz Nature&apos;s Resort
         Your love, prayers, support, and presence mean more to us than words can express.
         <br />
         <br />
-        As we begin our life together, we are grateful to share this joyful day surrounded by families and friends we value and respect so deeply.
+        As we begin our life together, we are grateful to share this joyful day with family and friends we value and respect.
         <br />
         <br />
         May God bless each of you abundantly.
@@ -1191,6 +1200,10 @@ function GentleRequest() {
 
     <li>
       <strong>Photos:</strong> Feel free to snap photos on your phone, but please give our professional photography team plenty of space to capture the big moments.
+    </li>
+    
+    <li>
+      <strong>Children:</strong>  While we adore your little ones, we respectfully request that attendance be limited to older children and adults..
     </li>
 
     <li>
