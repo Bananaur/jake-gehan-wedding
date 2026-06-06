@@ -313,7 +313,7 @@ if (musicPlaying) {
       THE WEDDING
     </p>
 
-    <p className="text-xl md:text-4xl mt-2">
+    <p className="text-xl md:text-4xl mt-6">
 OF
 </p>
   </div>
