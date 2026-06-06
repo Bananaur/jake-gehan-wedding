@@ -21,6 +21,7 @@ type Page =
   export default function WeddingWebsiteV6() {
     const [page, setPage] = useState<Page>("home")
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    const [previousScrollY, setPreviousScrollY] = useState(0)
     const audioRef = useRef<HTMLAudioElement>(null)
 const [musicPlaying, setMusicPlaying] = useState(false)
 
