@@ -310,8 +310,11 @@ if (musicPlaying) {
     {/* MOBILE HERO TEXT */}
     <div className="md:hidden flex flex-col items-center text-center">
     <div className="text-[#FFF3D6] uppercase tracking-[0.35em] -mt-8 mb-10">
-    <p className="upper-case text-white/90 text-[9px] leading-relaxed tracking-normal mb-10 ">
-  With the blessings of our families, we invite you to celebrate with us
+    <p className="upper-case text-white/90 text-[9px] leading-relaxed tracking-normal mb-0 ">
+  With the blessings of our families,
+</p>
+<p className="upper-case text-white/90 text-[9px] leading-relaxed tracking-normal mb-10 ">
+  we invite you to celebrate with us
 </p>
 
   <p className="text-white text-m mb-6">07.14.26</p>
