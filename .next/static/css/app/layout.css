@@ -1128,6 +1128,9 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-\[9px\] {
+  font-size: 9px;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -1136,6 +1139,9 @@ video {
 }
 .uppercase {
   text-transform: uppercase;
+}
+.normal-case {
+  text-transform: none;
 }
 .italic {
   font-style: italic;
