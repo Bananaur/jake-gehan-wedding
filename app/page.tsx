@@ -326,11 +326,11 @@ if (musicPlaying) {
           Jake
         </p>
 
-        <p className="text-[4rem] leading-none text-center -mr-6 my-4">
+        <p className="text-[4rem] leading-none text-center -mr-0 my-4">
           &
         </p>
 
-        <p className="text-[7rem] leading-[0.8] tracking-[0.03em] text-center -mr-2 mt-2">
+        <p className="text-[7rem] leading-[0.8] tracking-[0.03em] text-center mr-5 mt-2">
           Gehan
         </p>
       </div>
@@ -345,7 +345,7 @@ if (musicPlaying) {
 
   <p className="text-white text-lg mb-3">07.14.26</p>
   <p className="text-3xl">THE WEDDING</p>
-  <p className="text-3xl mt-6">OF</p>
+  <p className="text-3xl mt-5">OF</p>
 </div>
 
       <div
