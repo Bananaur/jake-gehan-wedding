@@ -316,7 +316,7 @@ if (musicPlaying) {
 <p className="upper-case text-white/90 text-[8px] leading-relaxed tracking-normal mb-10 ">
   we cordially invite you to join our celebration
 </p>
-  <p className="text-white text-sm mb-0">07.14.26</p>
+  <p className="text-white text-sm mb-0.5">07.14.26</p>
   <p className="text-xl">THE WEDDING</p>
   <p className="text-xl mt-5 mb-8">OF</p>
 </div>
