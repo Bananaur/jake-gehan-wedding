@@ -1360,7 +1360,7 @@ function AttendanceForm() {
 
         <div>
           <label className="label">
-            If you are RSVPing for a family, please list the names of everyone
+            If you are RSVPing for your family, please list the names of everyone
             who will be attending:
           </label>
           <textarea
