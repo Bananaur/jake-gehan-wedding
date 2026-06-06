@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Jake & Gehan Wedding",
     images: [
       {
-        url: "/hij.png",
+        url: "/layout-2.png",
         width: 1200,
         height: 630,
         alt: "Jake and Gehan Wedding Invitation",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "You Are Invited!",
     description:
       "Join us as we celebrate the wedding of Jake & Gehan on July 14, 2026.",
-    images: ["/hij.png"],
+    images: ["/layout-2.png"],
   },
 };
 
