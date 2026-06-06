@@ -309,25 +309,32 @@ if (musicPlaying) {
   <div className="relative z-10 text-center max-w-5xl w-full">
     {/* MOBILE HERO TEXT */}
     <div className="md:hidden flex flex-col items-center text-center">
-      <div className="text-[#FFF3D6] uppercase tracking-[0.25em] mt-4 mb-10">
-        <p className="text-white text-base mb-4">07.14.26</p>
-        <p className="text-3xl">THE WEDDING</p>
-        <p className="text-xl mt-6 mb-5">OF</p>
-      </div>
+    <div className="text-[#FFF3D6] uppercase tracking-[0.30em] mt-0 mb-10">
+  <p className="text-white/90 text-[9px] leading-relaxed tracking-[0.18em] mb-1">
+    WITH THE BLESSINGS OF OUR FAMILIES,
+  </p>
 
+  <p className="text-white/90 text-[9px] leading-relaxed tracking-[0.18em] mb-14">
+    WE INVITE YOU TO CELEBRATE WITH US
+  </p>
+
+  <p className="text-white text-base mb-2">07.14.26</p>
+  <p className="text-xl">THE WEDDING</p>
+  <p className="text-xl mt-6 mb-3">OF</p>
+</div>
       <div
         className={`${greatVibes.className} text-white w-full`}
         style={{ textShadow: "0 4px 20px rgba(0,0,0,0.18)" }}
       >
-        <p className="text-[8rem] leading-[0.9] tracking-[0.05em] text-center -ml-12 mb-2">
+        <p className="text-[6rem] leading-[0.9] tracking-[0.05em] text-center -ml-12 mb-2">
           Jake
         </p>
 
-        <p className="text-[5rem] leading-none text-center -mr-6 my-2">
+        <p className="text-[3rem] leading-none text-center -mr-6 my-2">
           &
         </p>
 
-        <p className="text-[8rem] leading-[0.8] tracking-[0.05em] text-center -mr-1 mt-2">
+        <p className="text-[6rem] leading-[0.8] tracking-[0.05em] text-center -mr-1 mt-2">
           Gehan
         </p>
       </div>
@@ -335,11 +342,15 @@ if (musicPlaying) {
 
     {/* DESKTOP HERO TEXT */}
     <div className="hidden md:flex flex-col items-center text-center">
-      <div className="text-[#FFF3D6] uppercase tracking-[0.35em] mt-8 mb-20">
-        <p className="text-white text-lg mb-8">07.14.26</p>
-        <p className="text-4xl">THE WEDDING</p>
-        <p className="text-4xl mt-6">OF</p>
-      </div>
+    <div className="text-[#FFF3D6] uppercase tracking-[0.25em] mt-0 mb-16">
+  <p className="text-white/90 text-[11px] leading-relaxed tracking-[0.22em] mb-10">
+    WITH THE BLESSINGS OF OUR FAMILIES, WE INVITE YOU TO CELEBRATE WITH US
+  </p>
+
+  <p className="text-white text-lg mb-3">07.14.26</p>
+  <p className="text-3xl">THE WEDDING</p>
+  <p className="text-3xl mt-6">OF</p>
+</div>
 
       <div
         className={`${greatVibes.className} text-white`}
@@ -355,7 +366,7 @@ if (musicPlaying) {
 
     <div className="h-16 md:h-20"></div>
 
-    <div className="bg-[#4A3527]/40 backdrop-blur-md rounded-[2rem] p-6 md:p-8 max-w-3xl mx-auto border border-[#F7DFA7]/25 shadow-2xl mt-20">
+    <div className="bg-[#4A3527]/40 backdrop-blur-md rounded-[2rem] p-6 md:p-8 max-w-3xl mx-auto border border-[#F7DFA7]/25 shadow-2xl mt-12">
       <p className="italic text-[#FFF8E8] text-xl md:text-3xl leading-relaxed">
         “He hath made every thing beautiful in His time”
       </p>
@@ -376,7 +387,7 @@ if (musicPlaying) {
       Balud, San Roque Northern Samar
     </p>
 
-    <p className="text-[#FFF3D6] uppercase tracking-[0.22em] text-lg md:text-2xl mt-10 mb-10">
+    <p className="text-[#FFF3D6] uppercase tracking-[0.22em] text-xl md:text-3xl mt-10 mb-10">
       Counting the Days Until We Say{" "}
       <span
         className="italic"
@@ -422,7 +433,7 @@ if (musicPlaying) {
         Our Story
       </p>
 
-      <h2 className="text-4xl md:text-7xl text-[#4A3527] leading-tight">
+      <h2 className="text-4xl md:text-6xl text-[#4A3527] leading-tight">
         A Sunset Years in the Making
       </h2>
     </div>
@@ -661,7 +672,7 @@ if (musicPlaying) {
       </p>
 
       <h2 className="text-4xl md:text-7xl text-[#4A3527] tracking-wide leading-tight">
-        Come Celebrate With us
+        Come Join us
       </h2>
     </div>
 
@@ -1234,7 +1245,7 @@ function AttendanceSection() {
           Attendance Confirmation
         </p>
         <h2 className="text-4xl md:text-6xl text-[#4A3527] mb-6">
-          Come Celebrate With Us!
+          Come Join Us!
         </h2>
         <p className="text-lg text-[#5C4434] mb-10">
         To help us plan better, we request that you confirm your attendance before 
