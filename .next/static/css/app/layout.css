@@ -1290,6 +1290,9 @@ video {
 .uppercase {
   text-transform: uppercase;
 }
+.normal-case {
+  text-transform: none;
+}
 .italic {
   font-style: italic;
 }
@@ -1388,6 +1391,9 @@ video {
 }
 .tracking-\[0\.27em\] {
   letter-spacing: 0.27em;
+}
+.tracking-normal {
+  letter-spacing: 0em;
 }
 .text-\[\#4A3527\] {
   --tw-text-opacity: 1;
