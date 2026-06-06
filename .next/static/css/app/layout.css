@@ -1248,6 +1248,12 @@ video {
 .text-\[9px\] {
   font-size: 9px;
 }
+.text-\[7rem\] {
+  font-size: 7rem;
+}
+.text-\[4rem\] {
+  font-size: 4rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -1343,6 +1349,12 @@ video {
 }
 .tracking-\[0\.010em\] {
   letter-spacing: 0.010em;
+}
+.tracking-\[0\.40em\] {
+  letter-spacing: 0.40em;
+}
+.tracking-\[0\.50em\] {
+  letter-spacing: 0.50em;
 }
 .text-\[\#4A3527\] {
   --tw-text-opacity: 1;
