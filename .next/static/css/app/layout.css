@@ -1287,6 +1287,9 @@ video {
 .text-\[7\.5rem\] {
   font-size: 7.5rem;
 }
+.text-\[8px\] {
+  font-size: 8px;
+}
 .font-bold {
   font-weight: 700;
 }
