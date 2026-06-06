@@ -314,7 +314,7 @@ if (musicPlaying) {
   Together with our families,
 </p>
 <p className="upper-case text-white/90 text-[8px] leading-relaxed tracking-normal mb-10 ">
-  we cordially invite you to celebrate with us
+  we cordially invite you to join our celebration
 </p>
   <p className="text-white text-sm mb-0">07.14.26</p>
   <p className="text-xl">THE WEDDING</p>
@@ -342,7 +342,7 @@ if (musicPlaying) {
     <div className="hidden md:flex flex-col items-center text-center">
     <div className="text-[#FFF3D6] uppercase tracking-[0.25em] mt-0 mb-16">
   <p className="text-white/90 text-[11px] leading-relaxed tracking-[0.22em] mb-10">
-    TOGETHER WITH OUR FAMILIES, WE CORDIALLY INVITE YOU TO CELEBRATE WITH US
+    TOGETHER WITH OUR FAMILIES, WE CORDIALLY INVITE YOU TO JOIN OUR CELEBRATION
   </p>
 
   <p className="text-white text-lg mb-3">07.14.26</p>
