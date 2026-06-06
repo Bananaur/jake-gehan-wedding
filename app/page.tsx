@@ -289,145 +289,131 @@ if (musicPlaying) {
       {page === "home" && (
         <>
           <section className="relative min-h-screen overflow-hidden flex items-center justify-center px-5 pt-24 pb-12">
-    <div className="absolute inset-0">
+  <div className="absolute inset-0">
     <div className="absolute inset-0 md:hidden bg-[#5A3A1E]">
-    <img
-  src="/hero-mobile.jpg"
-  alt="Jake and Gehan"
-  className="w-full h-full object-cover object-top"
-/>
-</div>
-
-  <div
-    className="absolute inset-0 hidden bg-cover bg-center bg-no-repeat md:block"
-    style={{ backgroundImage: "url('/canva2.png')" }}
-  />
-</div>
-            <div className="absolute inset-0 bg-gradient-to-b from-[#3D2B1F]/70 via-[#8F5A3A]/40 to-[#FFF7ED]" />
-
-            <div className="relative z-10 text-center max-w-5xl w-full">
-  {/* MOBILE HERO TEXT */}
-  <div className="md:hidden flex flex-col items-center text-center">
-    <div className="text-[#FFF3D6] uppercase tracking-[0.25em] mt-2 mb-10">
-      <p className="text-white text-base mb-14">07.14.26</p>
-
-      <p className="text-2xl">
-        THE WEDDING
-      </p>
-
-      <p className="text-xl mt-6">
-        OF
-      </p>
+      <img
+        src="/hero-mobile.jpg"
+        alt="Jake and Gehan"
+        className="w-full h-full object-cover object-top"
+      />
     </div>
 
     <div
-      className={`${greatVibes.className} text-white w-full`}
-      style={{
-        textShadow: "0 4px 20px rgba(0,0,0,0.18)",
-      }}
-    >
-      <p className="text-[8rem] leading-[0.8] tracking-[0.03em] text-left -ml-10 mb-1">
-        Jake
-      </p>
-
-      <p className="text-[5rem] leading-none text-center my-0">
-        &
-      </p>
-
-      <p className="text-[8rem] leading-[0.8] tracking-[0.03em] text-right -mr-4 mt-1">
-        Gehan
-      </p>
-    </div>
+      className="absolute inset-0 hidden bg-cover bg-center bg-no-repeat md:block"
+      style={{ backgroundImage: "url('/canva2.png')" }}
+    />
   </div>
 
-  {/* DESKTOP HERO TEXT */}
-  <div className="hidden md:flex flex-col items-center text-center">
-    <div className="text-[#FFF3D6] uppercase tracking-[0.35em] mt-8 mb-20">
-      <p className="text-white text-lg mb-8">07.14.26</p>
+  <div className="absolute inset-0 bg-gradient-to-b from-[#3D2B1F]/70 via-[#8F5A3A]/40 to-[#FFF7ED]" />
 
-      <p className="text-4xl">
-        THE WEDDING
+  <div className="relative z-10 text-center max-w-5xl w-full">
+    {/* MOBILE HERO TEXT */}
+    <div className="md:hidden flex flex-col items-center text-center">
+      <div className="text-[#FFF3D6] uppercase tracking-[0.25em] mt-2 mb-10">
+        <p className="text-white text-base mb-14">07.14.26</p>
+        <p className="text-2xl">THE WEDDING</p>
+        <p className="text-xl mt-6">OF</p>
+      </div>
+
+      <div
+        className={`${greatVibes.className} text-white w-full`}
+        style={{ textShadow: "0 4px 20px rgba(0,0,0,0.18)" }}
+      >
+        <p className="text-[8rem] leading-[0.8] tracking-[0.03em] text-left -ml-10 mb-1">
+          Jake
+        </p>
+
+        <p className="text-[5rem] leading-none text-center my-0">
+          &
+        </p>
+
+        <p className="text-[8rem] leading-[0.8] tracking-[0.03em] text-right -mr-4 mt-1">
+          Gehan
+        </p>
+      </div>
+    </div>
+
+    {/* DESKTOP HERO TEXT */}
+    <div className="hidden md:flex flex-col items-center text-center">
+      <div className="text-[#FFF3D6] uppercase tracking-[0.35em] mt-8 mb-20">
+        <p className="text-white text-lg mb-8">07.14.26</p>
+        <p className="text-4xl">THE WEDDING</p>
+        <p className="text-4xl mt-6">OF</p>
+      </div>
+
+      <div
+        className={`${greatVibes.className} text-white`}
+        style={{ textShadow: "0 4px 20px rgba(0,0,0,0.18)" }}
+      >
+        <p className="text-[10rem] leading-[0.8]">
+          Jake
+          <span className="mx-10 text-[8rem]">&</span>
+          Gehan
+        </p>
+      </div>
+    </div>
+
+    <div className="h-16 md:h-20"></div>
+
+    <div className="bg-[#4A3527]/40 backdrop-blur-md rounded-[2rem] p-6 md:p-8 max-w-3xl mx-auto border border-[#F7DFA7]/25 shadow-2xl mt-20">
+      <p className="italic text-[#FFF8E8] text-xl md:text-3xl leading-relaxed">
+        “He hath made every thing beautiful in His time”
       </p>
-
-      <p className="text-4xl mt-6">
-        OF
+      <p className="uppercase tracking-[0.25em] text-[#F7DFA7] mt-4 text-xs md:text-sm">
+        Ecclesiastes 3:11a KJV
       </p>
     </div>
 
-    <div
-      className={`${greatVibes.className} text-white`}
-      style={{
-        textShadow: "0 4px 20px rgba(0,0,0,0.18)",
-      }}
-    >
-      <p className="text-[10rem] leading-[0.8]">
-        Jake
-        <span className="mx-10 text-[8rem]">&</span>
-        Gehan
-      </p>
+    <div className="my-8 w-32 h-[1px] bg-[#F7DFA7] mx-auto" />
+
+    <p className="text-[#FFF3D6] mt-5 text-xl md:text-2xl leading-relaxed">
+      2:00 PM @
+    </p>
+
+    <p className="text-[#FFF3D6] mt-1 text-xl md:text-2xl leading-relaxed">
+      Villa Cruz Nature&apos;s Resort
+      <br />
+      Balud, San Roque Northern Samar
+    </p>
+
+    <p className="text-[#FFF3D6] uppercase tracking-[0.22em] text-lg md:text-2xl mt-10 mb-10">
+      Counting the Days Until We Say{" "}
+      <span
+        className="italic"
+        style={{ fontFamily: "'The Seasons', serif" }}
+      >
+        “I DO”
+      </span>
+    </p>
+
+    <Countdown timeLeft={timeLeft} />
+
+    <div className="max-w-2xl mx-auto mt-20">
+      <div className="bg-white/80 rounded-[2rem] p-6 md:p-8 shadow-xl border border-[#F1D3A2] text-center">
+        <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-sm font-bold mb-3">
+          Listen to Our Music
+        </p>
+
+        <h3
+          className={`${greatVibes.className} text-3xl md:text-5xl text-[#4A3527] mb-3 tracking-wide`}
+        >
+          'Til the End of Time
+        </h3>
+
+        <p className="text-[#9A5B3F] mb-5">
+          by Steve Green
+        </p>
+
+        <button
+          onClick={toggleMusic}
+          className="bg-[#4A3527]/90 text-[#FFF7ED] px-6 py-3 rounded-full shadow-xl border border-[#F1D3A2] text-xs uppercase tracking-[0.18em]"
+        >
+          {musicPlaying ? "Pause Music" : "Play Music"}
+        </button>
+      </div>
     </div>
   </div>
-</div>
-
-<div className="bg-[#4A3527]/40 backdrop-blur-md rounded-[2rem] p-6 md:p-8 max-w-3xl mx-auto border border-[#F7DFA7]/25 shadow-2xl mt-20">
-                <p className="italic text-[#FFF8E8] text-xl md:text-3xl leading-relaxed">
-                  “He hath made every thing beautiful in His time”
-                </p>
-                <p className="uppercase tracking-[0.25em] text-[#F7DFA7] mt-4 text-xs md:text-sm">
-                  Ecclesiastes 3:11a KJV
-                </p>
-              </div>
-
-              <div className="my-8 w-32 h-[1px] bg-[#F7DFA7] mx-auto" />
-
-<p className="text-[#FFF3D6] mt-5 text-xl md:text-2xl leading-relaxed">
-2:00 PM @
-</p>
-
-<p className="text-[#FFF3D6] mt-1 text-xl md:text-2xl leading-relaxed">
-Villa Cruz Nature&apos;s Resort
-  <br />
-  Balud, San Roque Northern Samar
-</p>
-
-              <p className="text-[#FFF3D6] uppercase tracking-[0.22em] text-lg md:text-2xl mt-10 mb-10">
-  Counting the Days Until We Say{" "}
-  <span
-    className="italic"
-    style={{ fontFamily: "'The Seasons', serif" }}
-  >
-    “I DO”
-  </span>
-</p>
-
-              <Countdown timeLeft={timeLeft} />
-              <div className="max-w-2xl mx-auto mt-20">
-<div className="bg-white/80 rounded-[2rem] p-6 md:p-8 shadow-xl border border-[#F1D3A2] text-center">
-<p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-sm font-bold mb-3">
-  Listen to Our Music
-</p>
-
-  <h3
-    className={`${greatVibes.className} text-3xl md:text-5xl text-[#4A3527] mb-3 tracking-wide`}
-  >
-    'Til the End of Time
-  </h3>
-
-  <p className="text-[#9A5B3F] mb-5">
-    by Steve Green
-  </p>
-
-  <button
-    onClick={toggleMusic}
-    className="bg-[#4A3527]/90 text-[#FFF7ED] px-6 py-3 rounded-full shadow-xl border border-[#F1D3A2] text-xs uppercase tracking-[0.18em]"
-  >
-    {musicPlaying ? "Pause Music" : "Play Music"}
-  </button>
-</div>
-</div>
-
-            </div>
-          </section>
+</section>
 
           <section className="pt-16 pb-24 md:py-24 px-5 md:px-16 bg-gradient-to-b from-[#FFF7ED] via-[#F7E7CE] to-[#FFF7ED]">
   <div className="max-w-6xl mx-auto">
@@ -1220,7 +1206,7 @@ function GentleRequest() {
     </li>
     
     <li>
-      <strong>Children:</strong>  While we adore your little ones, we respectfully request that attendance be limited to older children and adults..
+      <strong>Children:</strong>  While we adore your little ones, we respectfully request that attendance be limited to older children and adults.
     </li>
 
     <li>
