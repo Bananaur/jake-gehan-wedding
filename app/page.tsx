@@ -320,7 +320,7 @@ if (musicPlaying) {
 
   <p className="text-white text-base mb-5">07.14.26</p>
   <p className="text-xl">THE WEDDING</p>
-  <p className="text-xl mt-6 mb-8">OF</p>
+  <p className="text-xl mt-5 mb-8">OF</p>
 </div>
       <div
         className={`${greatVibes.className} text-white w-full`}
