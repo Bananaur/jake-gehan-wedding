@@ -44,20 +44,29 @@ if (musicPlaying) {
       minutes: 0,
       seconds: 0,
     })
-  useEffect(() => {
-    const timer = setInterval(() => {
-      const distance = weddingDate - new Date().getTime()
-
-      setTimeLeft({
-        days: Math.max(0, Math.floor(distance / (1000 * 60 * 60 * 24))),
-        hours: Math.max(0, Math.floor((distance / (1000 * 60 * 60)) % 24)),
-        minutes: Math.max(0, Math.floor((distance / (1000 * 60)) % 60)),
-        seconds: Math.max(0, Math.floor((distance / 1000) % 60)),
-      })
-    }, 1000)
-
-    return () => clearInterval(timer)
-  }, [weddingDate])
+    useEffect(() => {
+      const timer = setInterval(() => {
+        const distance = weddingDate - new Date().getTime()
+    
+        setTimeLeft({
+          days: Math.max(0, Math.floor(distance / (1000 * 60 * 60 * 24))),
+          hours: Math.max(0, Math.floor((distance / (1000 * 60 * 60)) % 24)),
+          minutes: Math.max(0, Math.floor((distance / (1000 * 60)) % 60)),
+          seconds: Math.max(0, Math.floor((distance / 1000) % 60)),
+        })
+      }, 1000)
+    
+      return () => clearInterval(timer)
+    }, [weddingDate])
+    
+    useEffect(() => {
+      if (page !== "home") {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        })
+      }
+    }, [page])
 
   const heroImage =
   "canva2.png"  
