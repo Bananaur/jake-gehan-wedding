@@ -316,21 +316,21 @@ if (musicPlaying) {
 
   <p className="text-white text-m mb-6">07.14.26</p>
   <p className="text-lg">THE WEDDING</p>
-  <p className="text-lg mt-4 mb-8">OF</p>
+  <p className="text-lg mt-3 mb-8">OF</p>
 </div>
       <div
         className={`${greatVibes.className} text-white w-full`}
         style={{ textShadow: "0 4px 20px rgba(0,0,0,0.18)" }}
       >
-        <p className="text-[6rem] leading-[0.5] tracking-[0.08em] text-center -ml-0 mb-4">
+        <p className="text-[7rem] leading-[0.5] tracking-[0.04em] text-center -ml-9 mb-8">
           Jake
         </p>
 
-        <p className="text-[4rem] leading-none text-center -mr-0 my-4">
+        <p className="text-[4rem] leading-none text-center -mr-2 my-8">
           &
         </p>
 
-        <p className="text-[6rem] leading-[0.5] tracking-[0.03em] text-center mr-0 mt-4">
+        <p className="text-[7rem] leading-[0.5] tracking-[0.03em] text-center mr-2">
           Gehan
         </p>
       </div>

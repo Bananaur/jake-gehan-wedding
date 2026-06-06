@@ -818,6 +818,9 @@ video {
 .-ml-32 {
   margin-left: -8rem;
 }
+.-ml-9 {
+  margin-left: -2.25rem;
+}
 .block {
   display: block;
 }
@@ -1406,6 +1409,9 @@ video {
 }
 .tracking-normal {
   letter-spacing: 0em;
+}
+.tracking-\[0\.04em\] {
+  letter-spacing: 0.04em;
 }
 .text-\[\#4A3527\] {
   --tw-text-opacity: 1;
