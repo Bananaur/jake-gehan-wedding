@@ -307,8 +307,8 @@ if (musicPlaying) {
 
             <div className="relative z-10 text-center max-w-5xl">
             <div className="flex flex-col items-center text-center mb-5">
-            <div className="text-[#FFF3D6] uppercase tracking-[0.35em] mb-24 mt-8">
-            <p className="text-white text-m md:text-lg mb-3">07.14.26</p>
+            <div className="text-[#FFF3D6] uppercase tracking-[0.35em] mb-16 mt-2 md:mb-24 md:mt-8">
+            <p className="text-white text-m md:text-lg mb-6">07.14.26</p>
     <p className="text-2xl md:text-4xl">
       THE WEDDING
     </p>
@@ -326,24 +326,15 @@ style={{
 >
 {/* MOBILE */}
 <div className="md:hidden w-full">
-<p className="text-[7rem] leading-[0.75] tracking-[0.03em] text-left mb-4">
-  Jake
-</p>
-
-<p className="text-[5rem] leading-none text-center my-4">
-  &
-</p>
-
-<p className="text-[7rem] leading-[0.75] tracking-[0.03em] text-right mt-4">
-  Gehan
-</p>
-</div>
-
-{/* DESKTOP */}
-<div className="hidden md:block text-center">
-  <p className="text-[13rem] leading-[0.8]">
+  <p className="text-[7rem] leading-[0.8] tracking-[0.03em] text-left mb-1">
     Jake
-    <span className="mx-10 text-[10rem]">&</span>
+  </p>
+
+  <p className="text-[4.5rem] leading-none text-center my-0">
+    &
+  </p>
+
+  <p className="text-[7rem] leading-[0.8] tracking-[0.03em] text-right mt-1">
     Gehan
   </p>
 </div>
