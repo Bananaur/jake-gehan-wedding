@@ -310,16 +310,16 @@ if (musicPlaying) {
     {/* MOBILE HERO TEXT */}
     <div className="md:hidden flex flex-col items-center text-center">
       <div className="text-[#FFF3D6] uppercase tracking-[0.25em] mt-2 mb-10">
-        <p className="text-white text-base mb-14">07.14.26</p>
+        <p className="text-white text-base mb-12">07.14.26</p>
         <p className="text-2xl">THE WEDDING</p>
-        <p className="text-xl mt-6">OF</p>
+        <p className="text-xl mt-4 mb-5">OF</p>
       </div>
 
       <div
         className={`${greatVibes.className} text-white w-full`}
         style={{ textShadow: "0 4px 20px rgba(0,0,0,0.18)" }}
       >
-        <p className="text-[8rem] leading-[0.8] tracking-[0.03em] text-left -ml-10 mb-1">
+        <p className="text-[8rem] leading-[0.9] tracking-[0.05em] text-center -ml-16 mb-2">
           Jake
         </p>
 
@@ -327,7 +327,7 @@ if (musicPlaying) {
           &
         </p>
 
-        <p className="text-[8rem] leading-[0.8] tracking-[0.03em] text-right -mr-4 mt-1">
+        <p className="text-[8rem] leading-[0.8] tracking-[0.05em] text-center -mr-6 mt-2">
           Gehan
         </p>
       </div>
