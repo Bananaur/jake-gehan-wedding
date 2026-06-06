@@ -386,9 +386,9 @@ Villa Cruz Nature&apos;s Resort
               <Countdown timeLeft={timeLeft} />
               <div className="max-w-2xl mx-auto mt-20">
 <div className="bg-white/80 rounded-[2rem] p-6 md:p-8 shadow-xl border border-[#F1D3A2] text-center">
-  <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-sm mb-3">
-    Listen to Our Music
-  </p>
+<p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-sm font-bold mb-3">
+  Listen to Our Music
+</p>
 
   <h3
     className={`${greatVibes.className} text-3xl md:text-5xl text-[#4A3527] mb-3 tracking-wide`}
