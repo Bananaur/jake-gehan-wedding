@@ -1023,7 +1023,7 @@ Note
             <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-5">
               Parents of the Groom
             </p>
-            <NameList names={["MR. WILLIAM M. PINCA", "MRS. ALICIA PINCA"]} />
+            <NameList names={["MR. WILLIAM PINCA", "MRS. ALICIA PINCA"]} />
           </div>
 
           <div className="bg-white/85 rounded-[2rem] p-8 shadow-lg border border-[#F1D3A2] text-center">
