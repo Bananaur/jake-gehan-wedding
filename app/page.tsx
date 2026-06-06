@@ -452,7 +452,7 @@ if (musicPlaying) {
         </div>
 
         <div className="flex justify-center md:justify-end">
-          <div className="relative w-full max-w-sm rounded-[2rem] bg-[#FFF7ED] p-3 shadow-2xl border border-[#F1D3A2] rotate-1">
+          <div className="relative w-full max-w-sm rounded-[2rem] bg-[#FFF7ED] p-3 shadow-2xl border border-[#F1D3A2] rotate-0 md:rotate-1">
             <img
               src="https://i.imgur.com/9L9E5kr.jpeg"
               alt="Jake and Gehan"
