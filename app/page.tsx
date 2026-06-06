@@ -119,12 +119,24 @@ if (musicPlaying) {
   src="/til-the-end-of-time.mp3"
   loop
   preload="auto"
-/><button
-  onClick={toggleMusic}
-  className="fixed bottom-5 right-5 z-50 bg-[#4A3527] text-white px-4 py-2 rounded-full shadow-lg"
->
-  {musicPlaying ? "Pause Music" : "Play Music"}
-</button>
+/>
+{page !== "home" && (
+  <button
+    onClick={() => {
+      setPage("home")
+
+      setTimeout(() => {
+        window.scrollTo({
+          top: previousScrollY,
+          behavior: "smooth",
+        })
+      }, 100)
+    }}
+    className="fixed bottom-5 right-5 z-50 bg-[#4A3527] text-white px-4 py-2 rounded-full shadow-lg"
+  >
+    Back
+  </button>
+)}
 
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FFF7ED]/90 backdrop-blur-md border-b border-[#D9A441]/30">
 <div className="max-w-7xl mx-auto px-5 md:px-6 py-4 flex justify-between items-center">
@@ -139,14 +151,41 @@ if (musicPlaying) {
   </button>
 
   <div className="hidden md:flex gap-6 text-xs uppercase tracking-[0.18em] text-[#4A3527]">
-    <button onClick={() => setPage("timeline")}>Timeline</button>
-    <button onClick={() => setPage("venue")}>Venue</button>
-    <button onClick={() => setPage("attire")}>Attire</button>
-    <button onClick={() => setPage("entourage")}>Entourage</button>
-    <button onClick={() => setPage("request")}>Request</button>
-    <button onClick={() => setPage("confirmation")}>RSVP</button>
-    <button onClick={() => setPage("thankyou")}>Thank You Note</button>
-  </div>
+  <button onClick={() => {
+    setPreviousScrollY(window.scrollY)
+    setPage("timeline")
+  }}>Timeline</button>
+
+  <button onClick={() => {
+    setPreviousScrollY(window.scrollY)
+    setPage("venue")
+  }}>Venue</button>
+
+  <button onClick={() => {
+    setPreviousScrollY(window.scrollY)
+    setPage("attire")
+  }}>Attire</button>
+
+  <button onClick={() => {
+    setPreviousScrollY(window.scrollY)
+    setPage("entourage")
+  }}>Entourage</button>
+
+  <button onClick={() => {
+    setPreviousScrollY(window.scrollY)
+    setPage("request")
+  }}>Request</button>
+
+  <button onClick={() => {
+    setPreviousScrollY(window.scrollY)
+    setPage("confirmation")
+  }}>RSVP</button>
+
+  <button onClick={() => {
+    setPreviousScrollY(window.scrollY)
+    setPage("thankyou")
+  }}>Thank You Note</button>
+</div>
 
   <button
     onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -160,6 +199,7 @@ if (musicPlaying) {
   <div className="md:hidden px-5 pb-5 flex flex-col gap-4 text-xs uppercase tracking-[0.18em] text-[#4A3527] bg-[#FFF7ED]/95">
     <button
       onClick={() => {
+        setPreviousScrollY(window.scrollY)
         setPage("timeline")
         setMobileMenuOpen(false)
       }}
@@ -170,6 +210,7 @@ if (musicPlaying) {
 
     <button
       onClick={() => {
+        setPreviousScrollY(window.scrollY)
         setPage("venue")
         setMobileMenuOpen(false)
       }}
@@ -180,6 +221,7 @@ if (musicPlaying) {
 
     <button
       onClick={() => {
+        setPreviousScrollY(window.scrollY)
         setPage("attire")
         setMobileMenuOpen(false)
       }}
@@ -190,6 +232,7 @@ if (musicPlaying) {
 
     <button
       onClick={() => {
+        setPreviousScrollY(window.scrollY)
         setPage("entourage")
         setMobileMenuOpen(false)
       }}
@@ -200,6 +243,7 @@ if (musicPlaying) {
 
     <button
       onClick={() => {
+        setPreviousScrollY(window.scrollY)
         setPage("request")
         setMobileMenuOpen(false)
       }}
@@ -210,6 +254,7 @@ if (musicPlaying) {
 
     <button
       onClick={() => {
+        setPreviousScrollY(window.scrollY)
         setPage("confirmation")
         setMobileMenuOpen(false)
       }}
@@ -220,6 +265,7 @@ if (musicPlaying) {
 
     <button
       onClick={() => {
+        setPreviousScrollY(window.scrollY)
         setPage("thankyou")
         setMobileMenuOpen(false)
       }}
@@ -424,9 +470,16 @@ Villa Cruz Nature&apos;s Resort
             </div>
 
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              {cards.map((card) => (
-                <DetailCard key={card.title} {...card} onClick={() => setPage(card.page)} />
-              ))}
+            {cards.map((card) => (
+  <DetailCard
+    key={card.title}
+    {...card}
+    onClick={() => {
+      setPreviousScrollY(window.scrollY)
+      setPage(card.page)
+    }}
+  />
+))}
             </div>
           </section>
 
