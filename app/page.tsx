@@ -324,17 +324,35 @@ if (musicPlaying) {
         className={`${greatVibes.className} text-white w-full`}
         style={{ textShadow: "0 4px 20px rgba(0,0,0,0.18)" }}
       >
-        <p className="text-[7rem] leading-[0.5] tracking-[0.04em] text-center -ml-10 mb-8">
-          Jake
-        </p>
+        <div className="text-center -ml-10 mb-8">
+  <p className="text-[7rem] leading-[0.5] tracking-[0.04em]">
+    Jake
+  </p>
+
+  <p
+    className="mt-3 text-[11px] uppercase tracking-[0.28em] text-white/85 -mr-20"
+    style={{ fontFamily: "'The Seasons', serif" }}
+  >
+    WILLIAM JR.
+  </p>
+</div>
 
         <p className="text-[4rem] leading-none text-center -mr-0 my-8">
           &
         </p>
 
-        <p className="text-[7rem] leading-[0.5] tracking-[0.03em] text-center mr-1">
-          Gehan
-        </p>
+        <div className="text-center mr-1">
+  <p className="text-[7rem] leading-[0.5] tracking-[0.03em]">
+    Gehan
+  </p>
+
+  <p
+    className="mt-3 text-[11px] uppercase tracking-[0.28em] text-white/85 -mr-20"
+    style={{ fontFamily: "'The Seasons', serif" }}
+  >
+    ANGELICA HANNAH
+  </p>
+</div>
       </div>
     </div>
 
@@ -354,11 +372,35 @@ if (musicPlaying) {
         className={`${greatVibes.className} text-white`}
         style={{ textShadow: "0 4px 20px rgba(0,0,0,0.18)" }}
       >
-        <p className="text-[10rem] leading-[0.8]">
-          Jake
-          <span className="mx-10 text-[8rem]">&</span>
-          Gehan
-        </p>
+        <div className="flex items-start justify-center gap-10">
+  <div className="text-center">
+    <p className="text-[10rem] leading-[0.8]">
+      Jake
+    </p>
+
+    <p
+      className="mt-0 uppercase tracking-[0.35em] text-white/85 text-[11px] translate-x-14"
+      style={{ fontFamily: "'The Seasons', serif" }}
+    >
+      WILLIAM JR.
+    </p>
+  </div>
+
+  <span className="text-[6rem]">&</span>
+
+  <div className="text-center">
+    <p className="text-[10rem] leading-[0.8]">
+      Gehan
+    </p>
+
+    <p
+      className="mt-0 uppercase tracking-[0.35em] text-white/85 text-[11px] translate-x-14"
+      style={{ fontFamily: "'The Seasons', serif" }}
+    >
+      ANGELICA HANNAH
+    </p>
+  </div>
+</div>
       </div>
     </div>
 
