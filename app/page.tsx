@@ -1072,7 +1072,7 @@ Note
             <p className="uppercase tracking-[0.25em] text-[#9A5B3F] text-xs mb-5">
               Parents of the Bride
             </p>
-            <NameList names={["MR. ALEBRO ANDREW BROZAS", "MRS. MARCELA BROZAS"]} />
+            <NameList names={["PTR. ALEBRO ANDREW BROZAS", "MRS. MARCELA BROZAS"]} />
           </div>
         </div>
 
