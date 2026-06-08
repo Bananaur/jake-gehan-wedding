@@ -76,7 +76,7 @@ if (musicPlaying) {
   const cards = [
     {
       title: "Wedding Timeline",
-      text: "Garden ceremony, cocktail hour, hall reception, and send off.",
+      text: "Garden ceremony, Refreshment hour, hall reception, and send off.",
       image:
         "https://i.imgur.com/Oa9pVU3.png",
       page: "timeline" as Page,
@@ -890,7 +890,7 @@ function Timeline() {
     ["2:00 PM", "Arrival of Guests"],
     ["2:30 PM", "Wedding Ceremony"],
     ["3:30 PM", "Pictorial / Recessional"],
-    ["4:00 PM", "Cocktail Hour"],
+    ["4:00 PM", "Refreshment Hour"],
     ["5:30 PM", "Reception"],
     ["8:00 PM", "Send Off"],
   ]
