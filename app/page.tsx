@@ -781,13 +781,18 @@ if (musicPlaying) {
         }
         .input {
           width: 100%;
-          border-radius: 1rem;
+          border-radius: 0.85rem;
           border: 1px solid #f1d3a2;
           background: rgba(255,255,255,0.9);
-          padding: 1rem 1.25rem;
+          padding: 0.7rem 1rem;
           outline: none;
           color: #4A3527;
         }
+        
+        .input::placeholder {
+          font-size: 0.8rem;
+          color: #9A5B3F;
+        } 
         .label {
           display: block;
           margin-bottom: 0.5rem;
@@ -998,7 +1003,7 @@ Note
       "MRS. BEBINA DOCEO",
       "MS. JULIE DULFO",
       "MRS. MONALISA ROMINEZ",
-      "MRS. LEIDA VILLANUEVA",
+      "MRS. LEDA VILLANUEVA",
       "MRS. RICA MICHELLE PAGUIO",
     ]
 
@@ -1241,7 +1246,7 @@ function GentleRequest() {
   <ul className="space-y-5 text-base md:text-lg text-[#5C4434] list-disc pl-6">
 
     <li>
-      <strong>RSVP:</strong> If you haven’t yet, please confirm your attendance by June 15, 2026.
+      <strong>RSVP:</strong> To help us with our wedding preparations, please confirm your attendance by June 15, 2026.
     </li>
 
     <li>
