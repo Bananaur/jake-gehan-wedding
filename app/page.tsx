@@ -1003,7 +1003,7 @@ Note
       "MRS. EMMA LEBECO",
       "MRS. BEBINA DOCEO",
       "MRS. MARILYN MORALES",
-      "MS. JULIE DULFO",
+      "MS. JULIA DULFO",
       "MRS. MONALISA ROMINEZ",
       "MRS. LEDA VILLANUEVA",
       "MRS. RICA MICHELLE PAGUIO",
@@ -1248,7 +1248,7 @@ function GentleRequest() {
   <ul className="space-y-5 text-base md:text-lg text-[#5C4434] list-disc pl-6">
 
     <li>
-      <strong>RSVP:</strong> To help us with our wedding preparations, please confirm your attendance by June 15, 2026.
+      <strong>RSVP:</strong> To help us with our wedding preparations, please confirm your attendance by June 20, 2026.
     </li>
 
     <li>
@@ -1296,7 +1296,7 @@ function AttendanceSection() {
         </h2>
         <p className="text-lg text-[#5C4434] mb-10">
         To help us plan better, we request that you confirm your attendance before 
-June 15, 2026.
+June 20, 2026.
         </p>
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
