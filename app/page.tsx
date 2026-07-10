@@ -418,7 +418,7 @@ if (musicPlaying) {
     <div className="my-8 w-32 h-[1px] bg-[#F7DFA7] mx-auto" />
 
     <p className="text-[#FFF3D6] mt-5 text-xl md:text-2xl leading-relaxed">
-      2:00 PM @
+      2:30 PM @
     </p>
 
     <p className="text-[#FFF3D6] mt-1 text-xl md:text-2xl leading-relaxed">
@@ -603,7 +603,7 @@ if (musicPlaying) {
   </p>
   
   <p className="text-m md:text-xl mb-5 text-[#4A3527]">
-    2:00 PM
+    2:30 PM
   </p>
 
   <a
@@ -887,12 +887,13 @@ function DetailCard({
 
 function Timeline() {
   const schedule = [
-    ["2:00 PM", "Arrival of Guests"],
-    ["2:30 PM", "Wedding Ceremony"],
-    ["3:30 PM", "Pictorial / Recessional"],
-    ["4:00 PM", "Refreshment Hour"],
-    ["5:30 PM", "Reception"],
-    ["8:00 PM", "Send Off"],
+    ["2:30 PM", "Arrival of Guests & Pre-wedding Welcome Drinks"],
+["3:00 PM", "Processional Preparation"],
+["3:30 PM", "Wedding Ceremony"],
+["4:30 PM", "Pictorial / Recessional / Postnup / Refreshment Hour"],
+["5:30 PM", "Prelude Reception"],
+["6:00 PM", "Entrance of the Newlyweds"],
+["8:30 PM", "Send Off"],
   ]
 
   return (
@@ -976,7 +977,7 @@ Note
       "HON. OWEN LAMBERTO SIERVO",
       "HON. FELIPE SOSING",
       "MR. JUDY MERINO",
-      "MR. JACINTO CANDOLE",
+      "MR. JACINTO CANDOLE JR.",
       "MR. ROMEO SALAZAR",
       "MR. NORIEL JARITO",
       "MR. DANTE LOBOS",
@@ -1252,7 +1253,7 @@ function GentleRequest() {
     </li>
 
     <li>
-      <strong>Timing:</strong> The ceremony begins promptly at 2:30 PM. Please arrive 15–20 minutes early to settle in.
+      <strong>Timing:</strong> The ceremony begins promptly at 3:30 PM. Please arrive 15–20 minutes early to settle in.
     </li>
 
     <li>
